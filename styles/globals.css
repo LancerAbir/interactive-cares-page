@@ -1,16 +1,24 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+/* Animate CSS */
+/* @import "../public/css/animate.min.css"; */
+/* Bootstrap v4.6.0 CSS */
+/* @import "../public/css/bootstrap.min.css"; */
+/* Magnific Popup CSS */
+/* @import "../public/css/magnific-popup.min.css"; */
+/* Nice Select CSS */
+/* @import "../public/css/nice-select.min"; */
+/* Slick CSS */
+/* @import "../public/css/slick.min"; */
+/* Style CSS */
+/* @import "../public/css/style.css"; */
+/* Slick Carousel CSS */
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"; */
+/* Slick Theme CSS */
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"; */
+/* Flaticon CSS */
+/* @import "../public/fonts/flaticon/css/flaticon.css"; */
+/* Modal Video CSS */
+/* @import "../node_modules/react-modal-video/css/modal-video"; */
+/* LightBox CSS */
+/* @import "../node_modules/react-image-lightbox/style.css"; */
+/* Font-Awesome CSS */
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"; */
