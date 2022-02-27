@@ -2,8 +2,8 @@ const SubscribeArea = () => {
     return (
         <section className="subscribe__area">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-8 offset-md-2">
+                <div className="row text-center">
+                    <div className="col-md-12">
                         <div className="subscribe__content">
                             <h2>Subscribe To Us</h2>
                             <p>Subscribe to our newsletter</p>

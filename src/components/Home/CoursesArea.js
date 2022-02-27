@@ -3,7 +3,7 @@ const CoursesArea = () => {
         <section className="course__area">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 offset-md-2">
+                    <div className="col-md-12 text-center">
                         <div className="section__title">
                             <h2>Most Trending Online Courses</h2>
                         </div>
@@ -43,8 +43,8 @@ const CoursesArea = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 offset-md-6">
-                        <div className="course__area__pagination">
+                    <div className="col-md-12 text-center">
+                        <div className="course__area__pagination d-inline-flex">
                             <i className="fas fa-angle-double-left"></i>
                             <p>Previous</p>
                             <p>Next</p>

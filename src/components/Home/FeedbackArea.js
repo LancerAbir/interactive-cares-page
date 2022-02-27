@@ -3,8 +3,8 @@ const FeedbackArea = () => {
         <section className="feedback__area">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 offset-md-2">
-                        <div className="section__title">
+                    <div className="col-md-12">
+                        <div className="section__title text-center">
                             <h2>Student Feedback</h2>
                         </div>
                     </div>
@@ -12,8 +12,8 @@ const FeedbackArea = () => {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6 offset-md-4">
-                        <div className="feedback__header__logo">
+                    <div className="col-md-12">
+                        <div className="feedback__header__logo text-center">
                             <img src="/img/download.png" alt="Feedback Logo" />
                         </div>
                     </div>

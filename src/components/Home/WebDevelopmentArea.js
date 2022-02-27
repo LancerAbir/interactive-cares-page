@@ -12,7 +12,7 @@ const WebDevelopmentArea = () => {
                                     সম্পূর্ণ ফ্রন্ট ও ব্যাক এন্ড ডেভেলপমেন্ট
                                     শেখা হবে শূন্য থেকেই
                                 </p>
-                                <div className="webDevelopment__btn">
+                                <div className="webDevelopment__btn d-flex justify-content-end">
                                     বিস্তারিত <br /> দেখুন
                                 </div>
                             </div>

@@ -3,7 +3,7 @@ const InstructorsArea = () => {
         <section className="instructors__area">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-5 ">
+                    <div className="col-md-5">
                         <div className="row d-flex justify-content-center">
                             <div className="professional__instructors__Image">
                                 <img
