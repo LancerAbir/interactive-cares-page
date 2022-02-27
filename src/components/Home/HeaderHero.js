@@ -24,7 +24,7 @@ const HeaderHero = () => {
                         </div>
                     </div>
                     <div className="col-md-5 d-flex align-items-center">
-                        <div className="header__hero__video  ">
+                        <div className="header__hero__video ">
                             <i className="fas fa-play"></i>
                         </div>
                     </div>

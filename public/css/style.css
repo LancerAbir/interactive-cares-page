@@ -12,64 +12,33 @@
     #. Common
     #. Input field
     #. Keyframes & Animation
-    #. Components
-        ##. Preloader
-        ##. Template Btn
-        ##. Hero Area
-            ##. Hero Area One
-            ##. Hero Area Two
-        ##. Hero Slider
-            ##. Hero Slider One
-            ##. Hero Slider Two
-        ##. Section Heading
-        ##. Image title box
-        ##. Circle Image Gallery
-        ##. Iconic Box
-            ###. Iconic Box
-            ###. Iconic Box Two
-            ###. Iconic Box Three
-        ##. Doctor Boxes
-            ###. Doctor Boxes One
-            ###. Doctor Boxes Two
-            ###. Doctor Boxes Three
-            ###. Doctor Details
-        ##. Testimonials
-            ###. Testimonials Slider
-        ##. Counter
-        ##. Check List
-        ##. Partner Logos
-        ##. Latest Blog
-        ##. Tile Gallery
-        ##. Simple Icon
-        ##. Fancy Content Box
-        ##. Call to Action
-            ###. Call to Action One
-            ###. Call to Action Two
-        ##. Bordered Icon
-        ##. Gallery
-        ##. Pricing Table
-        ##. Accordion
-        ##. Seeva Video
-        ##. Progress-bar
-        ##. Product Tab
-        ##. Page Title
-        ##. Contact
-    #. Blog
-        ##. Blog Post Loop
-        ##. Blog Details
-        ##. Comment Template
-        ##. Pagination
-        ##. Sidebar
-    #. Section
-    #. Shop
-        ##. Product Top-bar
-        ##. Product Loop
-        ##. Product Details
-        ##. Shop Sidebar
+    #. Header Area
+    #. Header Hero Area
+    #. Category Area
+    #. Web-Development Area
+    #. Courses Area
+    #. Instructors Area
+    #. Feedback Area
+    #. Subscribe Area
     #. Footer
------------------------------------------------------------------------------------*/
+
+/*======= Header Area ====ci===*/
+/*=======  Header Hero Area =======*/
+/*======= Category Area =======*/
+/*======= Web-Development Area =======*/
+/*======= Courses Area =======*/
+/*======= Instructors Area =======*/
+/*======= Feedback Area =======*/
+/*======= Subscribe Area =======*/
+/*======= Footer =======*/
+
+/*-----------------------------------------------------------------------------------*/
 /*======= Common =======*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 :root {
     --color-primary: #2e279d;
@@ -96,7 +65,7 @@ body {
     color: var(--color-body);
     font-family: var(--font-inter);
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 2;
     overflow-x: hidden !important;
 }
@@ -121,11 +90,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-lora);
-    font-weight: 400;
-    line-height: 1.2;
-    color: var(--color-heading);
-    margin: 0px;
+    /* font-family: var(--font-lora); */
+    /* font-weight: 400; */
+    /* line-height: 1.2; */
+    /* color: var(--color-heading); */
+    /* margin: 0px; */
 }
 
 h1 a,
@@ -134,7 +103,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: var(--color-heading);
+    /* color: var(--color-heading); */
 }
 
 ul,
@@ -387,7 +356,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none;
 }
 
-/*======= Header Area CSS =======*/
+/*======= Header Area =======*/
 
 .header__logo img {
     width: 120px;
@@ -459,3 +428,109 @@ header.header a {
 .header__logo {
     padding-right: 20px;
 }
+
+/*=======  Header Hero Area =======*/
+section.header__hero {
+    background-image: url("../../public/img/Interactive-Cares-Courses.png");
+    padding: 120px 0px 40px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+section.header__hero:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: rgb(0, 0, 0);
+    z-index: -99;
+}
+
+.header__hero__content h1 {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.header__hero__content h1 span {
+    display: flex;
+    font-size: 57px;
+}
+
+.header__hero__popular__item h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-right: 8px;
+    padding: 5px 10px;
+}
+
+.header__hero__popular__item h3 .header__hero__popular__itemList {
+    text-transform: uppercase;
+}
+
+h3.header__hero__popular__itemList {
+    padding: 5px 10px;
+    line-height: 1;
+    background-color: #000;
+    font-size: 15px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    border: 1px solid #999;
+}
+
+.header__hero__video {
+    width: 100%;
+    position: relative;
+}
+
+.header__hero__video i.fas {
+    position: absolute;
+    top: -50px;
+    right: 50%;
+    color: #fff;
+    padding: 30px 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+/*======= Category Area =======*/
+
+section.category__area {
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0d5bef 0%, #18b3c7 100%);
+    color: #fff;
+    padding: 80px 0px 80px 0px;
+}
+
+.category__area__heading h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.category__area__heading h2 span {
+    font-weight: bolder;
+}
+/*======= Web-Development Area =======*/
+section.webDevelopment__area {
+    background-image: url("../../public/img/Asset-3-8.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: cover;
+    background-position: center center;
+}
+/*======= Courses Area =======*/
+/*======= Instructors Area =======*/
+/*======= Feedback Area =======*/
+/*======= Subscribe Area =======*/
+/*======= Footer =======*/
