@@ -7,7 +7,7 @@ const CategoryArea = () => {
                         <div className="category__area__heading">
                             <h2 className="text-center">
                                 Select Your <span>Favourite</span> Category &
-                                Start Learning.
+                                Start Learning
                             </h2>
                             <div className="category__area__slider text-center">
                                 <p>category__area__slider item</p>
