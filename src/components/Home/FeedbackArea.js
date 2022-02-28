@@ -1,26 +1,52 @@
 const FeedbackArea = () => {
     return (
         <section className="feedback__area">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="section__title text-center">
-                            <h2>Student Feedback</h2>
+            <div className="feedback__top">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section__title text-center">
+                                <h2>Student Feedback</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="feedback__header__logo text-center">
-                            <img src="/img/download.png" alt="Feedback Logo" />
+
+            <div className="feedback__bottom">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="feedback__slider">
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-1.png"
+                                    alt="Feedback Slider"
+                                />
+                                {/*  
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-2.png"
+                                    alt="Feedback Slider"
+                                />
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-3.png"
+                                    alt="Feedback Slider"
+                                />
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-4.png"
+                                    alt="Feedback Slider"
+                                />
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-5.png"
+                                    alt="Feedback Slider"
+                                />
+                                <img
+                                    src="/img/Interactive-Cares-Testimonial-6.png"
+                                    alt="Feedback Slider"
+                                />
+
+                                */}
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="feedback__slider">
-                        <p> feedback__slider</p>
                     </div>
                 </div>
             </div>

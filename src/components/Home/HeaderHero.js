@@ -12,10 +12,10 @@ const HeaderHero = () => {
                             <div className="header__hero__popular__item d-inline-flex">
                                 <h3>Popular</h3>
                                 <h3 className="header__hero__popular__itemList">
-                                    Gre
+                                    GRE
                                 </h3>
                                 <h3 className="header__hero__popular__itemList">
-                                    Ielts
+                                    IELTS
                                 </h3>
                                 <h3 className="header__hero__popular__itemList">
                                     Python

@@ -1,6 +1,12 @@
 const InstructorsArea = () => {
     return (
         <section className="instructors__area">
+            <div className="instructors__area__bg__one">
+                <img src="/img/circle-dark.png" alt="Instructors BG" />
+            </div>
+            <div className="instructors__area__bg__two">
+                <img src="/img/pattern-lines.png" alt="Instructors BG" />
+            </div>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-5">
@@ -39,8 +45,8 @@ const InstructorsArea = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5">
-                        <div className="instructors__content">
+                    <div className="col-md-5 d-flex align-items-center">
+                        <div className="instructors__content ">
                             <h2>
                                 Professional <span> Instructors</span>
                             </h2>

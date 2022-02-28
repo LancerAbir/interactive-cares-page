@@ -18,23 +18,34 @@ const Header = () => {
 
                                     <div className="col-auto thm-cat-col d-none d-lg-block">
                                         <div className="browser__menu">
-                                            <p>Browse Courses </p>
+                                            <p>
+                                                Browse Courses
+                                                <i className="fas fa-sort-down"></i>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <div className="col col-lg-auto main__menu">
                                         <nav className="navbar navbar-expand-lg">
                                             <li>
-                                                <a href="#">Home</a>
+                                                <a className="active" href="#">
+                                                    Home
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#">Courses</a>
+                                                <a href="#">
+                                                    Courses
+                                                    <i className="fas fa-sort-down"></i>
+                                                </a>
                                             </li>
                                             <li>
                                                 <a href="#">Blogs</a>
                                             </li>
                                             <li>
-                                                <a href="#">Career</a>
+                                                <a href="#">
+                                                    Career
+                                                    <i className="fas fa-sort-down"></i>
+                                                </a>
                                             </li>
                                             <li>
                                                 <a href="#">Faq</a>
@@ -44,11 +55,28 @@ const Header = () => {
                                             </li>
                                         </nav>
                                     </div>
-                                    <div className="col ml-auto col-auto header__search">
-                                        header__search
+                                    <div className="col ml-auto col-auto">
+                                        <div className="header__search">
+                                            <i className="fas fa-search"></i>
+                                            <form action="/">
+                                                <input
+                                                    type="text"
+                                                    name="text"
+                                                    placeholder="Search tutorial & article"
+                                                />
+                                            </form>
+                                        </div>
                                     </div>
-                                    <div className="col-md-auto col-auto header__login__Cart">
-                                        header__login
+                                    <div className="col-md-auto col-auto">
+                                        <div className="header__login__Cart">
+                                            <div className="header__cart">
+                                                <i className="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <div className="header__login">
+                                                <p> Login</p>
+                                                <p> Sign Up</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
