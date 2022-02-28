@@ -137,6 +137,31 @@ span {
     display: inline-block;
 }
 
+.section__title h2 {
+    color: #082847;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    position: relative;
+    margin-bottom: 86px;
+}
+
+.section__title h2:after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    background-color: #082847;
+    margin-left: -70px;
+}
+
 /*======= Colors & Background =======*/
 .color-primary {
     color: var(--color-primary) !important;
@@ -437,7 +462,8 @@ section.header__hero {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    background-position: center center;
+    background-position: 50% 30%;
+    min-height: 410px;
 }
 section.header__hero:after {
     position: absolute;
@@ -461,7 +487,7 @@ section.header__hero:after {
 
 .header__hero__content h1 span {
     display: flex;
-    font-size: 57px;
+    font-size: 58px;
 }
 
 .header__hero__popular__item h3 {
@@ -523,13 +549,72 @@ section.category__area {
 }
 /*======= Web-Development Area =======*/
 section.webDevelopment__area {
-    background-image: url("../../public/img/Asset-3-8.png");
-    background-repeat: no-repeat;
-    z-index: 2;
-    background-size: cover;
-    background-position: center center;
+    background-color: #fff;
+    position: relative;
 }
+.webDevelopment__area__bg {
+    background-image: url("../../public/img/Asset-3-8.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 336px;
+    width: auto;
+}
+
+.webDevelopment__area__box p {
+    margin-bottom: 40px;
+}
+
+.webDevelopment__area__box {
+    padding: 8%;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 11%);
+    color: #082847;
+    font-size: 16px;
+    line-height: 1.2em;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.webDevelopment__area__box h2 {
+    color: #0d5bef;
+    font-size: 27px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 25px;
+}
+
+.webDevelopment__area__content {
+    position: absolute;
+    top: 70px;
+    left: 32%;
+    max-width: 570px;
+}
+
+.webDevelopment__btn a {
+    font-size: 20px;
+    line-height: 1em;
+    background-color: #818a91;
+    padding: 12px 24px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.webDevelopment__btn a:hover {
+    background-color: #0d5bef;
+    font-size: 22px;
+}
+
 /*======= Courses Area =======*/
+section.course__area {
+    background-color: #f1f1f1;
+    padding: 80px;
+}
 /*======= Instructors Area =======*/
 /*======= Feedback Area =======*/
 /*======= Subscribe Area =======*/
