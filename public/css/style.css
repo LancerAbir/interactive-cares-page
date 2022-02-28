@@ -766,23 +766,23 @@ section.category__area {
     height: 200px;
 }
 
-/* .swiper-slide {
+.swiper-slide {
     width: 329.333px;
     margin-right: 10px;
     transition-duration: 0ms;
     transform: translate3d(0px, 0px, -1854.66px) rotateX(0deg)
         rotateY(927.328deg);
     z-index: -18;
-} */
+}
 
-/* .swiper-slide.swiper-slide-duplicate {
+.swiper-slide-duplicate {
     width: 329.333px;
     margin-right: 10px;
     transition-duration: 0ms;
     transform: translate3d(0px, 0px, -927.227px) rotateX(0deg)
         rotateY(463.613deg);
     z-index: -8;
-} */
+}
 
 /*======= Web-Development Area =======*/
 section.webDevelopment__area {
