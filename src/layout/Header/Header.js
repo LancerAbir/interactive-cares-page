@@ -44,7 +44,7 @@ const Header = () => {
                                             <li>
                                                 <a href="#">
                                                     Career
-                                                    <i className="fal fa-sort-down"></i>
+                                                    <i className="fas fa-sort-down"></i>
                                                 </a>
                                             </li>
                                             <li>
