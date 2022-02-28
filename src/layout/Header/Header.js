@@ -5,7 +5,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="primary__menu">
+                            <div className="primary__menu paddingMinus15">
                                 <div className="row align-items-center">
                                     <div className="col-auto">
                                         <div className="header__logo">

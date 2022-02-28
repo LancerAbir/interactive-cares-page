@@ -17,7 +17,7 @@ const FeedbackArea = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="feedback__slider">
+                            <div className="feedback__slider paddingPlus15">
                                 <img
                                     src="/img/Interactive-Cares-Testimonial-1.png"
                                     alt="Feedback Slider"

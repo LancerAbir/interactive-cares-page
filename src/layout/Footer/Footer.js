@@ -7,34 +7,36 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <div className="footer__logo">
-                                <img
-                                    src="/img/footer-logo.png"
-                                    alt="Footer Logo"
-                                />
-                                <p>New Dimension of Learning</p>
-                            </div>
-                            <div className="footer__mail">
-                                <p>
-                                    <i className="fas fa-envelope"></i>{" "}
-                                    support@interactivecares-courses.com
-                                </p>
-                            </div>
-                            <div className="footer__social">
-                                <i className="fab fa-facebook-f"></i>
-                                <i className="fab fa-instagram"></i>
-                                <i className="fab fa-linkedin-in"></i>
-                                <i className="fab fa-youtube"></i>
-                            </div>
-                            <div className="footer__policyTerms">
-                                <a href="#" className="d-block">
-                                    Privacy Policy
-                                </a>
-                                <a href="#">Terms of use</a>
+                            <div className="paddingMinus15">
+                                <div className="footer__logo">
+                                    <img
+                                        src="/img/footer-logo.png"
+                                        alt="Footer Logo"
+                                    />
+                                    <p>New Dimension of Learning</p>
+                                </div>
+                                <div className="footer__mail">
+                                    <p>
+                                        <i className="fas fa-envelope"></i>
+                                        support@interactivecares-courses.com
+                                    </p>
+                                </div>
+                                <div className="footer__social">
+                                    <i className="fab fa-facebook-f"></i>
+                                    <i className="fab fa-instagram"></i>
+                                    <i className="fab fa-linkedin-in"></i>
+                                    <i className="fab fa-youtube"></i>
+                                </div>
+                                <div className="footer__policyTerms">
+                                    <a href="#" className="d-block">
+                                        Privacy Policy
+                                    </a>
+                                    <a href="#">Terms of use</a>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="footer__content">
+                            <div className="footer__content paddingMinus15">
                                 <p>
                                     Interactive is an One Stop Virtual Edtech
                                     Platform for Creating Employability Through

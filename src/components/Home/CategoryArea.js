@@ -1,3 +1,5 @@
+import CategorySlider from "../../Third-Party-Components/CategorySlider";
+
 const CategoryArea = () => {
     return (
         <section className="category__area">
@@ -10,7 +12,7 @@ const CategoryArea = () => {
                                 Start Learning
                             </h2>
                             <div className="category__area__slider text-center">
-                                <p>category__area__slider item</p>
+                                <CategorySlider />
                             </div>
                         </div>
                     </div>
