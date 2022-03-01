@@ -769,7 +769,7 @@ section.category__area {
 }
 
 .category__area__slider .swiper {
-    width: 100%;
+    width: 85%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -784,6 +784,10 @@ section.category__area {
 .category__area__slider .swiper-slide img {
     display: block;
     width: 100%;
+}
+.category__area__slider .swiper-slide-shadow-left,
+.category__area__slider .swiper-slide-shadow-right {
+    border-radius: 15px;
 }
 
 /* .swiper-slide {
