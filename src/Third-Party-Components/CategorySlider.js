@@ -108,11 +108,6 @@ const CategorySlider = () => {
                         <img src="/img/Maths.svg" alt="Category Slider" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="category__slider__box">
-                        <img src="/img/En" alt="Category Slider" />
-                    </div>
-                </SwiperSlide>
             </Swiper>
         </>
     );

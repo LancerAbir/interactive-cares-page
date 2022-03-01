@@ -11,9 +11,14 @@ const CategoryArea = () => {
                                 Select Your <span>Favourite</span> Category &
                                 Start Learning
                             </h2>
-                            <div className="category__area__slider text-center">
-                                <CategorySlider />
-                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="category__area__slider text-center">
+                            <CategorySlider />
                         </div>
                     </div>
                 </div>
