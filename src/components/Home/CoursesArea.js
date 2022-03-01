@@ -10,9 +10,9 @@ const CoursesArea = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row paddingPlus15">
                     <div className="col-md-4">
-                        <div className="course__box paddingPlus15">
+                        <div className="course__box">
                             <img
                                 className="course__box__img"
                                 src="/img/spoken-english-learning-path-cover-768x402.jpg"

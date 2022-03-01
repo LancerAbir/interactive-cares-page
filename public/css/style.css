@@ -89,15 +89,6 @@ h6 {
     /* margin: 0px; */
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    /* color: var(--color-heading); */
-}
-
 ul,
 ol {
     margin: 0px;
@@ -107,26 +98,6 @@ ol {
 
 p {
     margin: 0px;
-}
-
-a {
-    color: var(--color-secondary);
-    display: inline-block;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-}
-
-a:focus {
-    text-decoration: none;
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-a,
-span {
-    display: inline-block;
 }
 
 .section__title h2 {
