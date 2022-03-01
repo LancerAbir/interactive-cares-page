@@ -11,6 +11,7 @@ const CategorySlider = () => {
     return (
         <>
             <Swiper
+                autoplay={{ delay: 3000 }}
                 effect={"coverflow"}
                 grabCursor={true}
                 centeredSlides={true}
