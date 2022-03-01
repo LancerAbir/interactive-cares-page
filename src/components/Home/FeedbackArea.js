@@ -1,3 +1,5 @@
+import FeedbackSlider from "../../Third-Party-Components/FeedbackSlider";
+
 const FeedbackArea = () => {
     return (
         <section className="feedback__area">
@@ -18,33 +20,7 @@ const FeedbackArea = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="feedback__slider paddingPlus15">
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-1.png"
-                                    alt="Feedback Slider"
-                                />
-                                {/*  
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-2.png"
-                                    alt="Feedback Slider"
-                                />
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-3.png"
-                                    alt="Feedback Slider"
-                                />
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-4.png"
-                                    alt="Feedback Slider"
-                                />
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-5.png"
-                                    alt="Feedback Slider"
-                                />
-                                <img
-                                    src="/img/Interactive-Cares-Testimonial-6.png"
-                                    alt="Feedback Slider"
-                                />
-
-                                */}
+                                <FeedbackSlider />
                             </div>
                         </div>
                     </div>
