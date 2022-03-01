@@ -1,4 +1,10 @@
+import dynamic from "next/dynamic";
+import React, { useState } from "react";
+const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+
 const HeaderHero = () => {
+    const [isOpen, setOpen] = useState(false);
+
     return (
         <section className="header__hero">
             <div className="container">
@@ -25,8 +31,22 @@ const HeaderHero = () => {
                     </div>
                     <div className="col-md-5 d-flex align-items-center">
                         <div className="header__hero__video ">
-                            <i className="fas fa-play"></i>
+                            <i
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    setOpen(true);
+                                }}
+                                className="fas fa-play"
+                            ></i>
                         </div>
+                        <ModalVideo
+                            channel="youtube"
+                            className="video-popup"
+                            autoplay
+                            isOpen={isOpen}
+                            videoId="zB6JLN06Ix4"
+                            onClose={() => setOpen(false)}
+                        />
                     </div>
                 </div>
             </div>
