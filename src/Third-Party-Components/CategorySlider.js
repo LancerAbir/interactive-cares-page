@@ -1,6 +1,6 @@
 import React from "react";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Navigation, Pagination } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -14,6 +14,7 @@ const CategorySlider = () => {
                 effect={"coverflow"}
                 grabCursor={true}
                 centeredSlides={true}
+                navigation={true}
                 slidesPerView={"auto"}
                 coverflowEffect={{
                     rotate: 50,
@@ -23,7 +24,7 @@ const CategorySlider = () => {
                     slideShadows: true,
                 }}
                 pagination={true}
-                modules={[EffectCoverflow, Pagination]}
+                modules={[EffectCoverflow, Navigation, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
