@@ -768,20 +768,20 @@ section.category__area {
     margin-bottom: 38px;
 }
 
-.swiper {
+.category__area__slider .swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.swiper-slide {
+.category__area__slider .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 325px;
     height: 200px;
 }
 
-.swiper-slide img {
+.category__area__slider .swiper-slide img {
     display: block;
     width: 100%;
 }
